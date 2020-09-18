@@ -6,29 +6,76 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Tue, 15 Sep 2020 14:34:16 +0100</lastBuildDate>
+        <lastBuildDate>Fri, 18 Sep 2020 08:59:52 +0100</lastBuildDate>
         <atom:link href="https://lapolis.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
-            <title>My First Post</title>
-            <link>https://lapolis.github.io/posts/2020/09/my-first-post/</link>
-            <pubDate>Tue, 15 Sep 2020 14:34:16 +0100</pubDate>
+            <title>OSCP_survival_101</title>
+            <link>https://lapolis.github.io/posts/2020/09/oscp_survival_101/</link>
+            <pubDate>Fri, 18 Sep 2020 08:59:52 +0100</pubDate>
             
-            <guid>https://lapolis.github.io/posts/2020/09/my-first-post/</guid>
-            <description>import certuitls print(&amp;quot;lol&amp;quot;) def lol(xx): y = xx.split() import certuitls print(&amp;#34;lol&amp;#34;) def lol(xx): y = xx.split() </description>
-            <content type="html"><![CDATA[<pre><code>import certuitls
+            <guid>https://lapolis.github.io/posts/2020/09/oscp_survival_101/</guid>
+            <description>With this short post I want to put together a few very good tips I found on the internet about how to prepare for and how to survive the OSCP exam. This is not a tool-kit since you will just need a basic Kali installation for your OSCP exam.
+ Preparing for the exam Since the OSCP certification is relatively expensive, especially if you&amp;rsquo;re still a student. However, there are simple ways to start preparing even before enrolling in order to save at least a month of paid lab.</description>
+            <content type="html"><![CDATA[<p>With this short post I want to put together a few very good tips I found on the internet about how to prepare for and how to survive the OSCP exam.
+This is <strong>not</strong> a tool-kit since you will just need a basic Kali installation for your OSCP exam.</p>
+<hr>
+<h2 id="preparing-for-the-exam">Preparing for the exam</h2>
+<p>Since the <strong>OSCP</strong> certification is relatively expensive, especially if you&rsquo;re still a <strong>student</strong>. However, there are simple ways to start preparing even before enrolling in order to save at least a month of paid lab.</p>
+<p>A huge thanks goes to this magnificent list of <a href="https://docs.google.com/spreadsheets/d/1dwSMIAPIam0PuRBkCiDI88pU3yzrqqHkDtBngUHNCw8/edit#gid=1839402159">HTB/VulnHub machines</a>; I have personally tackled just the HTB OSCP-like VMs, excluding a few of the &ldquo;More challenging than OSCP&rdquo; ones.<br>
+I strongly recommend that, even after pwning each machine, you watch the walkthrough made by <a href="https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA">IppSec</a> or, even better, watch all of the HTB videos made by <a href="https://www.youtube.com/c/s4vitar">s4vitar</a> .. yeah I know, he speaks Spanish, I do not know Spanish myself <code>(actually, I have learnt few words watching the videos :P)</code> but s4vitar shows and graphically explains everything step by step making the videos self explanatory.<br>
+Watching other people&rsquo;s walkthrough can help to learn new techniques or just to improve your own one, at least that&rsquo;s what happened to me.</p>
+<p>If you still have time, it would be a good idea to do all the easy and medium active machines. If you want to save a bit of time, just pick the one marked as CVE/real-life/enumeration, you do not really need to get mental on a CTF like machine.</p>
+<p>If someone tells you <code>&quot;buy just two months of lab&quot;</code>, you gotta believe him/her. Obviously I did not, I thought that it would have been good to have 3 months time to pwn the whole lab <code>(reminder: I was not working during those 3 months)</code> and I ended up wasting the last month playing HTB.</p>
+<hr>
+<h2 id="the-actual-exam">The actual exam</h2>
+<p><strong>REMEMBER</strong>: you are not looking to find any 0day! If you do your port scan right, you already have all you need to work toward your foothold.<br>
+For the privesc, I would say that you just need to fire up <a href="https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite"><code>linPEAS|winPEAS</code></a>, but <strong>very basic</strong> enumeration should be more than enough. I personally ended up not even reading the output of <code>linPEAS|winPEAS</code> after running it.</p>
+<p>A few days before the exam, I read a citation in a post about OSCP <code>(which I cannot find any more)</code> that explicitly said that during the exam, you will finish all of your ideas before your 24 hours ends. With that said, set a <code>2 hours alarm</code> and every time it fires off, just take a walk around the block. During those 2 hours, if you did not make any improvements on the machine you are working on, switch to another one.</p>
+<p>I thought I would never say what I am going to say: <code>drink a lot of water</code>. Your brain will melt during those 24 hours, it needs fluids. About food, try to eat low fat high fibres, the last thing you want is to fight with the sleepiness after a huge lunch.</p>
+<p>Do not be nervous <code>(I wasn't, I swear! :P)</code>, especially the day before the exam. Just rest, do not do anything related to the OSCP, do something relaxing <code>(I swore the whole day against a f*!$@&amp;g Pi)</code>.</p>
+<p>Once you survive the first 24 hours and you got at least 70 points, it is report time. You can either use the <a href="https://github.com/whoisflynn/OSCP-Exam-Report-Template">whoisflynn</a> template with a little personalization or the magnificent <a href="https://github.com/noraj/OSCP-Exam-Report-Template-Markdown">Offensive Security Exam Report Template in Markdown</a> by noraj.</p>
+<hr>
+<h2 id="the-glory">The Glory</h2>
+<p>As soon as you get the confirmation of correctly submitting the report, open a beer, get a shower, open a beer and go to sleep. You deserve it.</p>
+<p>Following those few tips, a simple noob like myself can easily pass the OSCP examination. The timeline of my almost 16 hours-long exam:</p>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>   Machine point</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1 hours 30 mins</td>
+<td>   bof - 25</td>
+</tr>
+<tr>
+<td>+ 6 hours</td>
+<td>   25</td>
+</tr>
+<tr>
+<td>+ 4 hours 30 mins</td>
+<td>   20</td>
+</tr>
+<tr>
+<td>+ 2 hours</td>
+<td>   10</td>
+</tr>
+<tr>
+<td>+ 1 hour</td>
+<td>   user on the 20 pointer</td>
+</tr>
+</tbody>
+</table>
+<hr>
 
-print(&quot;lol&quot;)
+    <img src="/img/certificate_me.png"  alt="Me and my OSCP"  class="center"  style="border-radius: 8px;"  />
 
-def lol(xx):
-    y = xx.split()
-</code></pre><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">import</span> certuitls
 
-<span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#34;lol&#34;</span>)
-
-<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">lol</span>(xx):
-    y <span style="color:#f92672">=</span> xx<span style="color:#f92672">.</span>split()
-</code></pre></div>]]></content>
+<p>Very nice picture of myself holding the OSCP certificate which did not arrived yet.</p>
+]]></content>
         </item>
         
     </channel>
