@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 18 Sep 2020 08:59:52 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2020 08:38:16 +0100</lastBuildDate>
     
 	<atom:link href="https://lapolis.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>cracking</title>
+      <link>https://lapolis.github.io/tags/cracking/</link>
+      <pubDate>Fri, 25 Sep 2020 08:38:16 +0100</pubDate>
+      
+      <guid>https://lapolis.github.io/tags/cracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gpu</title>
+      <link>https://lapolis.github.io/tags/gpu/</link>
+      <pubDate>Fri, 25 Sep 2020 08:38:16 +0100</pubDate>
+      
+      <guid>https://lapolis.github.io/tags/gpu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hash</title>
+      <link>https://lapolis.github.io/tags/hash/</link>
+      <pubDate>Fri, 25 Sep 2020 08:38:16 +0100</pubDate>
+      
+      <guid>https://lapolis.github.io/tags/hash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hashcat</title>
+      <link>https://lapolis.github.io/tags/hashcat/</link>
+      <pubDate>Fri, 25 Sep 2020 08:38:16 +0100</pubDate>
+      
+      <guid>https://lapolis.github.io/tags/hashcat/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>OSCP</title>
