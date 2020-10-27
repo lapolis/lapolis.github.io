@@ -7,11 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 18 Sep 2020 08:59:52 +0100</lastBuildDate>
-    
-	<atom:link href="https://lapolis.github.io/tags/oscp/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 18 Sep 2020 08:59:52 +0100</lastBuildDate><atom:link href="https://lapolis.github.io/tags/oscp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OSCP_survival_101</title>
       <link>https://lapolis.github.io/posts/2020/09/oscp_survival_101/</link>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>writeup on Lapolis&#39; Notes</title>
+    <link>https://lapolis.github.io/tags/writeup/</link>
+    <description>Recent content in writeup on Lapolis&#39; Notes</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Mon, 19 Oct 2020 08:32:45 +0100</lastBuildDate><atom:link href="https://lapolis.github.io/tags/writeup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HacktoberCTF_(palinka_team)</title>
+      <link>https://lapolis.github.io/posts/2020/10/hacktoberctf_palinka_team/</link>
+      <pubDate>Mon, 19 Oct 2020 08:32:45 +0100</pubDate>
+      
+      <guid>https://lapolis.github.io/posts/2020/10/hacktoberctf_palinka_team/</guid>
+      <description>Not long ago, during a regular afternoon, I thought to myself: &amp;ldquo;I feel like I want to suffer a bit&amp;rdquo;. I quickly checked what CTF Time had on offer and there it was, the answer to all my dreams: Hacktober CTF.
+It was at this point, without pressuring of course&amp;hellip; :P , I check to see if anyone wanted to join me in this, probably painful, adventure.
+Still, no pressure.</description>
+    </item>
+    
+  </channel>
+</rss>

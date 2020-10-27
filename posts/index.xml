@@ -6,8 +6,322 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Fri, 25 Sep 2020 08:38:16 +0100</lastBuildDate>
+        <lastBuildDate>Mon, 19 Oct 2020 08:32:45 +0100</lastBuildDate>
         <atom:link href="https://lapolis.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>HacktoberCTF_(palinka_team)</title>
+            <link>https://lapolis.github.io/posts/2020/10/hacktoberctf_palinka_team/</link>
+            <pubDate>Mon, 19 Oct 2020 08:32:45 +0100</pubDate>
+            
+            <guid>https://lapolis.github.io/posts/2020/10/hacktoberctf_palinka_team/</guid>
+            <description>Not long ago, during a regular afternoon, I thought to myself: &amp;ldquo;I feel like I want to suffer a bit&amp;rdquo;. I quickly checked what CTF Time had on offer and there it was, the answer to all my dreams: Hacktober CTF.
+It was at this point, without pressuring of course&amp;hellip; :P , I check to see if anyone wanted to join me in this, probably painful, adventure.
+Still, no pressure.</description>
+            <content type="html"><![CDATA[
+    <img src="/img/hacktober/00_logo.png"  alt="hacktober ctf logo"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>Not long ago, during a regular afternoon, I thought to myself: &ldquo;I feel like I want to suffer a bit&rdquo;. I quickly checked what <a href="https://ctftime.org/">CTF Time</a> had on offer and there it was, the answer to all my dreams: <a href="https://ctftime.org/event/1108">Hacktober CTF</a>.<br>
+It was at this point, without pressuring of course&hellip; :P , I check to see if anyone wanted to join me in this, probably painful, adventure.</p>
+
+    <img src="/img/hacktober/1_rec.png"  alt="Recruitment"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>Still, no pressure.. ..</p>
+
+    <img src="/img/hacktober/2_gr0.png"  alt="Gyorgy!"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>After no more than a day or two, the fucking dream team was complete! We were ready to go against stuff we had no idea how to solve, ready to cry fighting against those 59 challenges, ready to learn as much as we could but definitely <strong>not</strong> ready to give up</p>
+
+    <img src="/img/hacktober/3_dreamteam.png"  alt="dream team"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>Let me introduce the members of the palinka_team:</p>
+<ul>
+<li>gr0g101 aka <a href="https://www.linkedin.com/in/gyorgy-antal/">Gyorgy</a></li>
+<li>kaos aka <a href="https://www.linkedin.com/in/dennis-varischetti/">Dennis</a></li>
+<li>fluffiie aka <a href="https://www.linkedin.com/in/mdrurb/">Maider</a></li>
+<li>lapolis aka <a href="https://www.linkedin.com/in/nicola-pastres/">Nicola</a></li>
+</ul>
+<p>We all helped each other with solving each section, however this is where each team member focused more: </p>
+<table>
+<thead>
+<tr>
+<th>User</th>
+<th> Category</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>lapolis    &ndash;&gt;</td>
+<td> web, SQL, forensics, Linux</td>
+</tr>
+<tr>
+<td>kaos       &ndash;&gt;</td>
+<td> programming, forensics</td>
+</tr>
+<tr>
+<td>fluffiie    &ndash;&gt;</td>
+<td> crypto</td>
+</tr>
+<tr>
+<td>gr0g101 &ndash;&gt;</td>
+<td> Traffic analysis, stego, forensics</td>
+</tr>
+</tbody>
+</table>
+<p>We really want to mention that the whole CTF was a fun competition with nice and creative challenges. A huge shout out to the organisers!!</p>
+<p>The following write-ups are a selection of the most interesting challenges, chosen by the whole team, showing how we solved them and the thought processes behind them.</p>
+<blockquote class="badgr-badge" style="display: inline-block; font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;">
+	<a href="https://api.badgr.io/public/assertions/HHw1Lc2JT3aq3Xo3uxzi4g">
+		<img src="https://media.badgr.com/uploads/badges/assertion-HHw1Lc2JT3aq3Xo3uxzi4g.png" width="120px" height="120px">
+	</a>
+	<p class="badgr-badge-name" style="hyphens: auto; overflow-wrap: break-word; word-wrap: break-word;margin: 0; font-size: 16px; font-weight: 600; font-style: normal; font-stretch: normal; line-height: 1.25; letter-spacing: normal; text-align: left; color: #012012c;">DEADFACE
+	</p>
+	<p class="badgr-badge-date" style="margin: 0; font-size: 12px; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #555555;">
+		<strong style="font-size: 12px; font-weight: bold; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #000;">Awarded:
+		</strong> Oct 18, 2020</p>
+		<script async="async" src="https://badgr.com/assets/widgets.bundle.js"></script>
+	</blockquote>
+
+<blockquote class="badgr-badge" style="display: inline-block; font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;">
+	<a href="https://api.badgr.io/public/assertions/5MYKihKsQ-W_7nS5aQjLww">
+		<img src="https://media.badgr.com/uploads/badges/assertion-5MYKihKsQ-W_7nS5aQjLww.png" width="120px" height="120px">
+	</a>
+		<p class="badgr-badge-name" style="hyphens: auto; overflow-wrap: break-word; word-wrap: break-word;margin: 0; font-size: 16px; font-weight: 600; font-style: normal; font-stretch: normal; line-height: 1.25; letter-spacing: normal; text-align: left; color: #012012c;">Participant
+		</p>
+		<p class="badgr-badge-date" style="margin: 0; font-size: 12px; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #555555;">
+			<strong style="font-size: 12px; font-weight: bold; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #000;">Awarded:</strong> Oct 18, 2020</p>
+			<script async="async" src="https://badgr.com/assets/widgets.bundle.js"></script></blockquote>
+
+
+<blockquote class="badgr-badge" style="display: inline-block; font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;">
+	<a href="https://api.badgr.io/public/assertions/5MYKihKsQ-W_7nS5aQjLww">
+		<img src="https://media.badgr.com/uploads/badges/assertion-5MYKihKsQ-W_7nS5aQjLww.png" width="120px" height="120px">
+	</a>
+		<p class="badgr-badge-name" style="hyphens: auto; overflow-wrap: break-word; word-wrap: break-word;margin: 0; font-size: 16px; font-weight: 600; font-style: normal; font-stretch: normal; line-height: 1.25; letter-spacing: normal; text-align: left; color: #012012c;">Participant
+		</p>
+		<p class="badgr-badge-date" style="margin: 0; font-size: 12px; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #555555;">
+			<strong style="font-size: 12px; font-weight: bold; font-style: normal; font-stretch: normal; line-height: 1.67; letter-spacing: normal; text-align: left; color: #000;">Awarded:</strong> Oct 18, 2020</p>
+			<script async="async" src="https://badgr.com/assets/widgets.bundle.js"></script></blockquote>
+
+<hr>
+<h2 id="90s-kids">90s Kids</h2>
+<p>For this challenge we had to run some queries on a database recovered from a dump.<br>
+Wait.. What?? No SQL injections?? Who the hell ever did queries to a legit db??<br>
+Well, first thing was to set up a new db called <code>westridge</code> to recover the dump which required some cleaning.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">unzip shallowgraveu.zip
+sed -i <span style="color:#e6db74">&#39;s/utf8mb4/utf8/g&#39;</span> shallowgraveu.sql
+sed -i <span style="color:#e6db74">&#39;s/utf8mb4_0900_ai_ci/utf8_general_ci/g&#39;</span> shallowgraveu.sql
+sudo mysql -e <span style="color:#e6db74">&#34;create database westridge;&#34;</span>
+sudo mysql westridge &lt; shallowgraveu.sql
+</code></pre></div>
+    <img src="/img/hacktober/5_90s.png"  alt="90 kids"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>Mmmmh.. this requires a regex for sure. No wait, MySQL knows exactly what a date is? Well.. Nice!</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">SELECT</span> <span style="color:#66d9ef">count</span>(user_id) <span style="color:#66d9ef">FROM</span> users 
+<span style="color:#66d9ef">WHERE</span> <span style="color:#66d9ef">month</span>(dob) <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span> 
+<span style="color:#66d9ef">AND</span> <span style="color:#66d9ef">year</span>(dob) 
+<span style="color:#66d9ef">BETWEEN</span> <span style="color:#ae81ff">1990</span> <span style="color:#66d9ef">AND</span> <span style="color:#ae81ff">1999</span>;
+</code></pre></div><hr>
+<h2 id="student-body">Student Body</h2>
+
+    <img src="/img/hacktober/6_stud.png"  alt="student body"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>Well, this one was hard. First we had to find out the instructor&rsquo;s name and surname.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">SELECT</span> e.user_id, 
+luc.<span style="color:#66d9ef">first</span>, 
+luc.<span style="color:#66d9ef">last</span>, 
+e.term_crs_id, 
+<span style="color:#66d9ef">c</span>.title, 
+tc.instructor, 
+concat(prof.<span style="color:#66d9ef">first</span>,prof.<span style="color:#66d9ef">last</span>) <span style="color:#66d9ef">as</span> prof, 
+r.role_name  
+<span style="color:#66d9ef">FROM</span> enrollments e 
+<span style="color:#66d9ef">JOIN</span> term_courses tc <span style="color:#66d9ef">on</span> tc.term_crs_id <span style="color:#f92672">=</span> e.term_crs_id 
+<span style="color:#66d9ef">JOIN</span> courses <span style="color:#66d9ef">c</span> <span style="color:#66d9ef">on</span> tc.course_id <span style="color:#f92672">=</span> <span style="color:#66d9ef">c</span>.course_id 
+<span style="color:#66d9ef">JOIN</span> users prof <span style="color:#66d9ef">on</span> tc.instructor <span style="color:#f92672">=</span> prof.user_id 
+<span style="color:#66d9ef">JOIN</span> users luc <span style="color:#66d9ef">on</span> luc.user_id <span style="color:#f92672">=</span> e.user_id 
+<span style="color:#66d9ef">JOIN</span> roles_assigned ra <span style="color:#66d9ef">on</span> ra.user_id <span style="color:#f92672">=</span> prof.user_id 
+<span style="color:#66d9ef">JOIN</span> roles r <span style="color:#66d9ef">on</span> r.role_id <span style="color:#f92672">=</span> ra.role_id 
+<span style="color:#66d9ef">WHERE</span> e.user_id <span style="color:#f92672">=</span> ( 
+  <span style="color:#66d9ef">SELECT</span> user_id <span style="color:#66d9ef">FROM</span> users <span style="color:#66d9ef">WHERE</span> <span style="color:#66d9ef">first</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Lucia&#39;</span> ) 
+<span style="color:#66d9ef">AND</span> tc.course_id <span style="color:#f92672">=</span> (
+  <span style="color:#66d9ef">SELECT</span> course_id <span style="color:#66d9ef">FROM</span> courses <span style="color:#66d9ef">WHERE</span> title <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;SOCI424&#39;</span>);
+</code></pre></div>
+    <img src="/img/hacktober/27_proff.png"  alt="professor"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>Finally, we could query the students headcount:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">SELECT</span> <span style="color:#66d9ef">count</span>(user_id) 
+<span style="color:#66d9ef">FROM</span> enrollments 
+<span style="color:#66d9ef">WHERE</span> term_crs_id <span style="color:#66d9ef">in</span> ( 
+  <span style="color:#66d9ef">SELECT</span> term_crs_id <span style="color:#66d9ef">FROM</span> term_courses <span style="color:#66d9ef">WHERE</span> instructor <span style="color:#f92672">=</span> <span style="color:#ae81ff">480</span> );
+</code></pre></div>
+    <img src="/img/hacktober/28_dbflag.png"  alt="db flaggg"  class="center"  style="border-radius: 8px;"  />
+
+
+<hr>
+<h2 id="jigsaw">Jigsaw</h2>
+
+    <img src="/img/hacktober/7_jig.png"  alt="jugsaw"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>Finally something that we like, regex time!</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">SELECT</span> username,<span style="color:#66d9ef">last</span> 
+<span style="color:#66d9ef">FROM</span> users 
+<span style="color:#66d9ef">WHERE</span> <span style="color:#66d9ef">last</span> regexp <span style="color:#e6db74">&#39;^[K,R,I]{2}[^\n][[:alpha:]]{3}[E-N]$&#39;</span>;
+</code></pre></div>
+    <img src="/img/hacktober/29_regflag.png"  alt="regexxxxx"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>Ok that was quick :(</p>
+<hr>
+<h2 id="shellcode-extraction">Shellcode extraction</h2>
+
+    <img src="/img/hacktober/8_shell.png"  alt="shellcode extraction"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>Our first idea was to convert it to a binary file and try to analyse or disassemble it, then figure out the name of the created file.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">wget -O shellcode.hex https://tinyurl.com/y2ra3pzj
+cat shellcode.hex | xxd -r -p &gt; shellcode.bin
+</code></pre></div><p>Using xxd we could check for any potential strings, or hints or really <em>JUST ANYTHING USEFUL</em>, unfortunately no luck.<br>
+We also tried to disassemble it with <a href="https://rada.re/n/radare2.html">radare2</a> and make some sense out of it, no success here.<br>
+Then, IDA tried to rescue us; we threw the shellcode into IDA hoping to discover something juicy and we realised that it tried to interact with shell32.dll.</p>
+
+    <img src="/img/hacktober/9_shell.png"  alt="shellcode"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>This is a Windows API that contains functions used for opening files or web pages&hellip; Mmmmmh&hellip; Let&rsquo;s switch to Windows then&hellip; Wait! Do you really want to run a piece of shellcode from real malware on your PC!?!? Are you mental? Well&hellip; We leave it to you, to decide that&hellip; All we knew, was&hellip;. It had to be solved at all costs!</p>
+<p>After careful researching (banging our heads against the wall and crying) we came across a great tool called <a href="http://sandsprite.com/blogs/index.php?uid=7&amp;pid=152">scdbg</a>. A huge &ldquo;THANK YOU&rdquo; TO THE CREATORS of this amazing tool. It is capable of analysing shellcode at runtime and logs every detail, such as API calls and interactive hooks, in a simulated virtual environment. It is even possible to integrate it with IDA.</p>
+<p>We need to activate report mode and API table scan to see if any function is called from shell32.dll to download or create a file. If yes, then we smashed it because the full path will be passed as an argument and hopefully it will be the ROAMING folder. So let’s see&hellip;</p>
+
+    <img src="/img/hacktober/10_dbg.png"  alt="debuggggg"  class="center"  style="border-radius: 8px;"  />
+
+
+
+    <img src="/img/hacktober/11_done.png"  alt="shellcode done"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>And yesssss we won!!! There we have it&hellip; The shellcode calls URLDownloadToFileA with 2 arguments. One is the malicious exe&rsquo;s location and the other is the full path that the downloaded file will be written to. The exe file lands inside the ROAMING folder under the current user. It also executes that file using the ShellExecuteA function. This challenge was an emotional roller-coaster, but we managed to learn from it AND discovered an amazing tool.</p>
+
+    <img src="/img/hacktober/12_memeshelll.png"  alt="meme shellcode"  class="center"  style="border-radius: 8px;"  />
+
+
+<hr>
+<h2 id="red-rum">Red Rum</h2>
+
+    <img src="/img/hacktober/13_code.png"  alt="redrum"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>The challenge &ldquo;Red Rum&rdquo; asked us to create a list of numbers between 1 and 500 and to replace some of them as the following:</p>
+<ul>
+<li>numbers divisible by 3 with &ldquo;Red&rdquo;</li>
+<li>numbers divisible by 5 with &ldquo;Rum&rdquo;</li>
+<li>numbers divisible by both 3 AND 5 with &ldquo;RedRum&rdquo;</li>
+</ul>
+<p>By netcatting env2.hacktober.io we got one more hint: &ldquo;Your answer should be comma-separated with no spaces&rdquo;.</p>
+
+    <img src="/img/hacktober/14_hintnc.png"  alt="nc hint"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>After some coding&hellip; and swearing, we got it.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-py" data-lang="py"><span style="color:#f92672">import</span> socket 
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">rum</span>(out<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;&#39;</span>):
+    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range (<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">501</span>):
+        a, b, <span style="color:#f92672">=</span> i <span style="color:#f92672">%</span> <span style="color:#ae81ff">3</span>, i <span style="color:#f92672">%</span> <span style="color:#ae81ff">5</span>
+        c <span style="color:#f92672">=</span> (a <span style="color:#f92672">+</span> b)
+        <span style="color:#66d9ef">if</span>   c <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> : out <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;RedRum,&#39;</span>
+        <span style="color:#66d9ef">elif</span> a <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> : out <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;Red,&#39;</span>
+        <span style="color:#66d9ef">elif</span> b <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> : out <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#39;Rum,&#39;</span>
+        <span style="color:#66d9ef">else</span>: out <span style="color:#f92672">+=</span> f<span style="color:#e6db74">&#39;{str(i)},&#39;</span>
+
+    <span style="color:#66d9ef">return</span> f<span style="color:#e6db74">&#39;{out[:-1]}</span><span style="color:#ae81ff">\n</span><span style="color:#e6db74">&#39;</span>
+
+s <span style="color:#f92672">=</span> socket<span style="color:#f92672">.</span>socket(socket<span style="color:#f92672">.</span>AF_INET, socket<span style="color:#f92672">.</span>SOCK_STREAM)
+s<span style="color:#f92672">.</span>connect((<span style="color:#e6db74">&#39;143.110.147.190&#39;</span>, <span style="color:#ae81ff">5000</span>))
+s<span style="color:#f92672">.</span>sendall(rum()<span style="color:#f92672">.</span>encode())
+s<span style="color:#f92672">.</span>shutdown(socket<span style="color:#f92672">.</span>SHUT_WR)
+
+data <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;!!--palinka_team--!!&#39;</span>
+<span style="color:#66d9ef">while</span> data:
+    data <span style="color:#f92672">=</span> s<span style="color:#f92672">.</span>recv(<span style="color:#ae81ff">1024</span>)
+    <span style="color:#66d9ef">print</span> (f<span style="color:#e6db74">&#39;{data.decode()}&#39;</span>)
+
+s<span style="color:#f92672">.</span>close()
+</code></pre></div>
+    <img src="/img/hacktober/15_flagssss.png"  alt="flaggggg"  class="center"  style="border-radius: 8px;"  />
+
+
+<hr>
+<h2 id="boney-boi-breakdance">Boney Boi Breakdance</h2>
+
+    <img src="/img/hacktober/16_bboy.png"  alt="b-boy"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>This challenge involved a little bit of digging around and guessing. We tried the usual tools to carve some information out from the picture, but nothing was working.</p>
+<p>Combining the hint from the description and the fact that <a href="http://steghide.sourceforge.net/">steghide</a> expected a pass phrase we thought we had to find something about the picture itself. A little bit of googling directed us to a <a href="https://en.wikipedia.org/wiki/Danse_Macabre">Wikipedia page</a> containing a description of the picture. Scrolling through that page, right at the bottom, we found an interesting sentence mentioning the title of the picture and the author&hellip; Mmmmh&hellip; That could be the pass phrase.</p>
+
+    <img src="/img/hacktober/17_wolgemut.png"  alt="pass phrase"  class="center"  style="border-radius: 8px;"  />
+
+
+
+    <img src="/img/hacktober/18_passphrase.png"  alt="steghide"  class="center"  style="border-radius: 8px;"  />
+
+
+
+    <img src="/img/hacktober/19_flag.png"  alt="flaaaaagggggg"  class="center"  style="border-radius: 8px;"  />
+
+
+<hr>
+<h2 id="an-evil-christmas-carol-3">An evil christmas carol 3</h2>
+
+    <img src="/img/hacktober/20_evil.png"  alt="evil carol"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>Ok&hellip; there we were, with bleeding eyes, trying to solve the final session of traffic analysis. The task was to find out the type of malware family, so we fired up <a href="https://www.wireshark.org/">Wireshark</a>, used couple of eye drops, a quick Palinka and ready to dive in.</p>
+<p>Since the malware was downloaded from a remote source, we should be able to see a clear destination IP and the name of the malicious file.</p>
+
+    <img src="/img/hacktober/21_ipssss.png"  alt="evil carol"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>Shortly after, we found a nice site which can provide information on specific malware by its name or url. Doing a search for either “july22.dll” or “MwRrN5” throw us all the info we need. The malware type was there waiting for us. The last phase could be solved in a similar fashion.</p>
+
+    <img src="/img/hacktober/22_mal-flag.png"  alt="flags everywhereeeeeeee"  class="center"  style="border-radius: 8px;"  />
+
+
+<hr>
+<h2 id="hell-spawn-1">Hell Spawn 1</h2>
+
+    <img src="/img/hacktober/23_hell.png"  alt="hell spawn"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>Memory dump analysis? WTF is that? Ooooh, is it that magic thing done with <a href="https://www.volatilityfoundation.org/">volatily</a>? Yeah that&rsquo;s right.<br>
+For this challenge we needed to find out which was the process that spawned the malicious &ldquo;explorer.exe&rdquo;. First we need to find the the profile used.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">volatility imageinfo -f ./mem.raw
+</code></pre></div>
+    <img src="/img/hacktober/24_prof.png"  alt="profile"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>Having the profile, it was possible to make some sense from this bunch of data. Using the &ldquo;cmdline&rdquo; function we easily get a list of all the commands.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">volatility --profile<span style="color:#f92672">=</span>Win10x64_17134 cmdline -f ./mem.raw 
+</code></pre></div>
+    <img src="/img/hacktober/25_cmline.png"  alt="cmdline"  class="center"  style="border-radius: 8px;"  />
+
+
+<p>In order to confirm which process spawned which process, we used &ldquo;pstree&rdquo;.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">volatility --profile<span style="color:#f92672">=</span>Win10x64_17134 pstree -f ./mem.raw
+</code></pre></div>
+    <img src="/img/hacktober/26_pstree.png"  alt="pstree"  class="center"  style="border-radius: 8px;"  />
+
+
+]]></content>
+        </item>
         
         <item>
             <title>GPU_rig_setup_n_maintenance</title>

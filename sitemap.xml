@@ -3,6 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://lapolis.github.io/tags/ctf/</loc>
+    <lastmod>2020-10-19T08:32:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lapolis.github.io/tags/hacktober/</loc>
+    <lastmod>2020-10-19T08:32:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lapolis.github.io/posts/2020/10/hacktoberctf_palinka_team/</loc>
+    <lastmod>2020-10-19T08:32:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lapolis.github.io/</loc>
+    <lastmod>2020-10-19T08:32:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lapolis.github.io/tags/palinka_team/</loc>
+    <lastmod>2020-10-19T08:32:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lapolis.github.io/posts/</loc>
+    <lastmod>2020-10-19T08:32:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lapolis.github.io/tags/</loc>
+    <lastmod>2020-10-19T08:32:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lapolis.github.io/tags/writeup/</loc>
+    <lastmod>2020-10-19T08:32:45+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://lapolis.github.io/tags/cracking/</loc>
     <lastmod>2020-09-25T08:38:16+01:00</lastmod>
   </url>
@@ -24,21 +64,6 @@
   
   <url>
     <loc>https://lapolis.github.io/tags/hashcat/</loc>
-    <lastmod>2020-09-25T08:38:16+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lapolis.github.io/</loc>
-    <lastmod>2020-09-25T08:38:16+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lapolis.github.io/posts/</loc>
-    <lastmod>2020-09-25T08:38:16+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://lapolis.github.io/tags/</loc>
     <lastmod>2020-09-25T08:38:16+01:00</lastmod>
   </url>
   
